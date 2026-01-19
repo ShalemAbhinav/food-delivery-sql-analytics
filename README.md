@@ -85,9 +85,6 @@ food-delivery-sql-analytics/
 │   ├── 04_advanced_delivery_analysis.sql
 │   └── 05_advanced_restaurant_analysis.sql
 │
-├── dashboards/
-│   └── powerbi_dashboard.pbix   # Optional
-│
 ├── README.md
 └── .gitignore
 ```

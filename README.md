@@ -67,27 +67,30 @@ These insights can help guide operational optimization and pricing strategy deci
 ---
 
 ## Project Structure
+
+```text
 food-delivery-sql-analytics/
 ├── data/
-│ ├── raw/ # Raw datasets (excluded from version control due to size)
-│ └── cleaned/ # Cleaned datasets used for analysis
+│   ├── raw/                  # Raw datasets (excluded from version control due to size)
+│   └── cleaned/              # Cleaned datasets used for analysis
 │
 ├── etl/
-│ ├── restaurant_cleaning.py
-│ └── delivery_cleaning.py
+│   ├── restaurant_cleaning.py
+│   └── delivery_cleaning.py
 │
 ├── sql/
-│ ├── 01_schema.sql
-│ ├── 02_basic_restaurant_analysis.sql
-│ ├── 03_basic_delivery_analysis.sql
-│ ├── 04_advanced_delivery_analysis.sql
-│ └── 05_advanced_restaurant_analysis.sql
+│   ├── 01_schema.sql
+│   ├── 02_basic_restaurant_analysis.sql
+│   ├── 03_basic_delivery_analysis.sql
+│   ├── 04_advanced_delivery_analysis.sql
+│   └── 05_advanced_restaurant_analysis.sql
 │
 ├── dashboards/
-│ └── powerbi_dashboard.pbix # Optional
+│   └── powerbi_dashboard.pbix   # Optional
 │
 ├── README.md
 └── .gitignore
+```
 
 ---
 

@@ -1,3 +1,5 @@
+.DS_Store
+=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +207,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+>>>>>>> da42b982929993365177292af08c50a149d60888
